@@ -1,19 +1,17 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
 import HomeSide from '../components/homeSide';
 import LeftSide from '../components/leftSide';
 import RightSide from '../components/rightSide';
 
 const Home = () => {
   return (
-    <Container fluid className=' box-border h-[100%]'>
-      <Row className='h-[100%]'>
-        <Col className='bg-blue-600' xs={3}><LeftSide/></Col>
-        <Col className='bg-purple-700'xs={8}><HomeSide/></Col>
-        <Col className='bg-green-500'xs={1}><RightSide/></Col>
-      </Row>
+    <div className=' box-border h-[100%] grid grid-cols-10 mx-auto'>
+    
+        <div className='bg-[#191923] p-1 hidden lg:block col-span-2'><LeftSide/></div>
+        <div className='bg-purple-700  col-span-10 md:col-span-9 lg:col-span-7'><HomeSide/></div>
+        <div className='bg-[#20202a]  hidden md:block mr-8'><RightSide/></div>
       
-    </Container>
+    </div>
   )
 }
 
