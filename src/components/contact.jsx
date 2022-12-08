@@ -47,7 +47,7 @@ const ContactCar2 = ()=>{
 
 const FormContact = ()=>{
     return(
-        <form className='bg-[#2B2B37] p-2 sm:p-6 sm:mx-4 sm:px-4 gap-y-4 flex flex-col'>
+        <form className='bg-[#2B2B37] p-2 sm:p-6 sm:mx-4 gap-y-4 flex flex-col'>
             <div className='flex mt-3'>
                 <label htmlFor="" className='bg-[#20202A] p-3'><img src={user} alt="" /></label>
                 <input type="text" placeholder='Name' className='bg-[#242430] w-full text-sm pl-2 outline-none'/>
