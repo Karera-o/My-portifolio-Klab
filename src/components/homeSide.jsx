@@ -18,7 +18,7 @@ const HomeSide = () => {
             
             <button>Explore Now</button>
         </div>
-        <img src="./PHOTO 3.jpg" alt="profile"/>
+        {/* <img src="./PHOTO 3.jpg" alt="profile"/> */}
             </div>
             
         </div>
