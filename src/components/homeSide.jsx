@@ -22,7 +22,7 @@ const HomeSide = () => {
             </div>
             
         </div>
-        <div className='flex sm:justify-around  pt-4 sm:flex-wrap px-14 sm:px-0'>
+        <div className='flex sm:justify-around  pt-4 flex-wrap px-14 sm:px-0 gap-x-1'>
             <p><span className='text-[#FFC107]  text-xl mr-1'>2+</span> Years Experience</p>
             <p><span className='text-[#FFC107]  text-xl mr-1'>2+</span> Completed Projects</p>
             <p><span className='text-[#FFC107]  text-xl mr-1'>2+</span> Happy Customers</p>
