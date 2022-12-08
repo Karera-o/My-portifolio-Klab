@@ -62,7 +62,7 @@ const FormContact = ()=>{
                 <textarea name="" id="" cols="30" rows="10" placeholder='Message' className='bg-[#242430] w-full text-sm pl-2 pt-3 outline-none'></textarea>
             </div>
 
-            <button className='bg-[#FFC107] text-black p-2 sm:w-2/6 lg:w-2/6 xl:w-1/6 uppercase mb-5 mt-3'>Send Message</button>
+            <button className='bg-[#FFC107] text-black font-bold text-sm p-2 sm:w-2/6 lg:w-2/6 xl:w-1/6 uppercase mb-5 mt-3'>Send Message</button>
         </form>
     )
 }
