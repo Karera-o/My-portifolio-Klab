@@ -8,8 +8,8 @@ const Home = () => {
     <div className=' box-border h-[100%] grid grid-cols-10 mx-auto'>
     
         <div className='bg-[#191923] p-1 hidden lg:block col-span-2'><LeftSide/></div>
-        <div className='bg-purple-700  col-span-10 md:col-span-9 lg:col-span-7'><HomeSide/></div>
-        <div className='bg-[#20202a]  hidden md:block mr-8'><RightSide/></div>
+        <div className='bg-[#20202A] p-1 col-span-10 md:col-span-9 lg:col-span-7 overflow-y-auto no-scrollbar'><HomeSide/></div>
+        <div className='bg-[#20202a] m-1 hidden md:block mr-8'><RightSide/></div>
       
     </div>
   )
