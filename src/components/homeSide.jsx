@@ -10,14 +10,14 @@ const HomeSide = () => {
     <div className='w-full bg-slate-500 scroll-auto'>
       <div className='w-full h-[60vh] bg-slate-800 '>
         <div className='h-full w-full bg-bg bg-cover bg-center   bg-no-repeat flex flex-col items-center justify-end '>
-            <div className='h-5/6 w-[95%] mx-4 bg-bg bg-cover contrast-80 bg-center bg-no-repeat flex  items-center justify-around gap-x-5 pr-32 pl-12'>
+            <div className='h-5/6 w-[95%] mx-4 bg-black bg-cover opacity-60 bg-center bg-no-repeat flex  flex-col sm:flex-row items-center justify-around gap-x-5 md:pr-32 md:pl-12'>
             {/* brightness-[30%] */}
-            <div className='flex flex-col w-2/5 gap-y-4 flex-1'>
-            <h1 className='text-white font-bold'>Discover my Amazing Art Space! </h1>
+            <div className='flex flex-col  items-center md:items-start justify-center  md:w-2/5 gap-y-4 flex-1 opacity-100'>
+            <h1 className='text-white font-bold text-xl md:text-4xl  w-full'>Discover my Amazing Art Space! </h1>
 
             <p > <span className='text-[#FFC107] font-bold'>&lt;code&gt;</span>I build web applications <span className='text-[#FFC107]'>&lt;code&gt;</span></p>
             
-            <button className='bg-[#FFC107] text-black p-2 w-1/2'>Explore Now</button>
+            <button className='bg-[#FFC107] text-black p-2 md:w-1/5 w-full'>Explore Now</button>
         </div>
         {/* <img src="./PHOTO 3.jpg" alt="profile"/> */}
         {/* <img src={profile} alt=""  className='w-40 h-50 self-end'/> */}
