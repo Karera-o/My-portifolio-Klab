@@ -21,7 +21,7 @@ const HomeSide = () => {
         </div>
         
         
-        <img src={profile} alt=""  className='hidden md:block md:w-45 md:h-60 self-end justify-self-end'/>
+        <img src={profile} alt=""  className='hidden md:block md:w-45 md:h-60 self-end justify-self-end md:pr-8 '/>
        
             </div>
             
