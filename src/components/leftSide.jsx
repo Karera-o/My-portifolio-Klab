@@ -21,16 +21,16 @@ const sites = [linkedin,web,github,twitter]
       <div className='bg-[#242430] text-[#868688] flex flex-col items-center justify-center py-4'>
             <img src={profile} alt="" width="1200" className='rounded-full h-[5rem] w-[5rem]'/>
             <h1 className='text-white text-lg font-bold'>Karera Olivier</h1>
-            <p>Full-Stack Developer </p>
-            <p>UI/UX Designer</p>
+            <p className='text-[#868688]'>Full-Stack Developer </p>
+            <p className='text-[#868688]'>UI/UX Designer</p>
         </div>
         
         <div className='flex-1'>
 
         <section className='flex flex-col gap-y-1 mt-1'>
-                <p className='flex justify-between mx-3'>Residence <span >Rwanda</span></p>
-            <p className='flex justify-between mx-3'>City <span>Kigali</span></p>
-            <p className='flex justify-between mx-3'>Age <span>22</span></p>
+                <p className='flex justify-between mx-3'>Residence <span className='text-[#868688]' >Rwanda</span></p>
+            <p className='flex justify-between mx-3'>City <span className='text-[#868688]'>Kigali</span></p>
+            <p className='flex justify-between mx-3'>Age <span className='text-[#868688]'>22</span></p>
             </section>
             <div>
             <hr className='mx-3'/>

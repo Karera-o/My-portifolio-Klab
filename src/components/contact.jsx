@@ -25,19 +25,19 @@ export default Contact
 const ContactCard1 = ()=>{
     return(
         <div className='flex flex-col  sm:w-2/6 bg-[#2C2C38] p-4 text-sm'>
-            <p className='flex justify-between'>Residence: <span>Rwanda</span></p>
-                <p className='flex justify-between'>City: <span>Kigali</span></p>
-                <p className='flex justify-between'>District: <span>Gasabo</span></p>
+            <p className='flex justify-between'>Residence: <span className='text-[#868688]'>Rwanda</span></p>
+                <p className='flex justify-between'>City: <span className='text-[#868688]'>Kigali</span></p>
+                <p className='flex justify-between'>District: <span className='text-[#868688]'>Gasabo</span></p>
         </div>
     )
 }
 const ContactCar2 = ()=>{
     return(
         <div className='flex flex-col sm:w-3/6 bg-[#2C2C38] p-4 text-sm'>
-            <p className='flex justify-between'>Email: <span>olivierkarera2020@gmail.com</span></p>
-                <p className='flex justify-between'>Linkedin: <span>linkedin.com/in/karera-o</span></p>
-                <p className='flex justify-between'>Github: <span>https://github.com/Karera-o</span></p>
-                <p className='flex justify-between'>Twitter: <span>https://twitter.com/OlivierKarera1</span></p>
+            <p className='flex justify-between'>Email: <span className='text-[#868688]'>olivierkarera2020@gmail.com</span></p>
+                <p className='flex justify-between'>Linkedin: <span className='text-[#868688]'>linkedin.com/in/karera-o</span></p>
+                <p className='flex justify-between'>Github: <span className='text-[#868688]'>https://github.com/Karera-o</span></p>
+                <p className='flex justify-between'>Twitter: <span className='text-[#868688]'>https://twitter.com/OlivierKarera1</span></p>
         </div>
     )
 }
