@@ -3,7 +3,7 @@ import Contact from './contact';
 import Footer from './footer';
 import ServiceCard from './serviceCard';
 // import bg from '../Resources/bg.png'
-import profile from '../Resources/profile.jpg'
+import profile from '../Resources/profile.png'
 
 const HomeSide = () => {
   return (
@@ -20,7 +20,9 @@ const HomeSide = () => {
             <button className='bg-[#FFC107] text-black p-2 md:w-1/5 w-full'>Explore Now</button>
         </div>
         {/* <img src="./PHOTO 3.jpg" alt="profile"/> */}
-        {/* <img src={profile} alt=""  className='w-40 h-50 self-end'/> */}
+        <div className='bg-black'>
+        {/* <img src={profile} alt=""  className='w-40 h-60 self-end '/> */}
+        </div>
             </div>
             
         </div>
@@ -33,9 +35,9 @@ const HomeSide = () => {
         <div className='mt-10 mx-3'>
           <h1 className='text-2xl mb-5'>My services</h1>
           <div className='flex gap-1 flex-col sm:flex-row'>
-          <ServiceCard />
-          <ServiceCard />
-          <ServiceCard />
+          <ServiceCard  title='Back-end developer'/>
+          <ServiceCard title='Front-end developer'/>
+          <ServiceCard title='UI/UX designer'/>
           </div>
         </div >
         <div className='my-16'>
