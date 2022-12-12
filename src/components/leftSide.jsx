@@ -54,7 +54,7 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
           </section>
         </div>
         <div>
-        <hr className='mx-3'/>
+        <hr className='mx-3 '/>
         <h1 className='text-xl ml-3 '>Coding</h1>
         
           {coding.map((value)=>{

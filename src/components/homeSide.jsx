@@ -4,6 +4,7 @@ import Footer from './footer';
 import ServiceCard from './serviceCard';
 // import bg from '../Resources/bg.png'
 import profile from '../Resources/profile.png'
+import { Link } from 'react-router-dom';
 
 const HomeSide = () => {
   return (
@@ -17,7 +18,7 @@ const HomeSide = () => {
 
             <p > <span className='text-[#FFC107] font-bold'>&lt;code&gt;</span>I build web applications <span className='text-[#FFC107]'>&lt;code&gt;</span></p>
             
-            <button className='bg-[#FFC107] text-black p-2 sm:w-1/5 w-4/6'>Explore Now</button>
+            <Link to='/portifolio' className='sm:w-1/5 w-4/6'><button className='bg-[#FFC107] text-black p-2 w-full'>Explore Now</button></Link>
         </div>
         
         
