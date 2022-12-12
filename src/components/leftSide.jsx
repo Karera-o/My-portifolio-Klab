@@ -6,6 +6,7 @@ import github from '../Resources/GitHub.png'
 import twitter from '../Resources/Twitter.png'
 import { Progress } from 'antd';
 import {GoCheck} from 'react-icons/go'
+import {MdOutlineFileDownload} from 'react-icons/md'
 import './all.css'
 
 const LeftSide = () => {
@@ -29,7 +30,7 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
             <p className='text-[#868688]'>UI/UX Designer</p>
         </div>
         
-        <div className='overflow-y-auto no-scrollbar w-full h-96 pb-20'>
+        <div className='overflow-y-auto no-scrollbar w-full h-96 pb-14'>
 
         <section className='flex flex-col gap-y-1 mt-1'>
                 <p className='flex justify-between mx-3'>Residence <span className='text-[#868688]' >Rwanda</span></p>
@@ -80,6 +81,12 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
             )
           })}
         
+        </div>
+        <div>
+        <hr className='mx-3'/>
+        <div className='flex items-center  mx-3 '>
+          <button className=' flex gap-x-2 uppercase text-[#818184] text-sm font-bold'>Download CV <span className='mb-3'><MdOutlineFileDownload color='#818184' style={{fill: '#818184'}}/></span></button>
+        </div>
         </div>
         </div>
         
