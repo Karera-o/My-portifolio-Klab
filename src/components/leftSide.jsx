@@ -75,7 +75,7 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
             return(
               <div className='px-4 flex gap-x-2'>
                 <span><GoCheck style={{fill:'#FFC107'}}/></span>
-                <p className='flex justify-between text-xs text-[] '>{value.language} </p>
+                <p className='flex justify-between text-xs text-[#818184] '>{value.language} </p>
   
         </div>
             )
