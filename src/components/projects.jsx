@@ -17,10 +17,10 @@ const Projects = () => {
     <nav className='flex justify-between text-[#7D7D80] py-4 uppercase mx-4'>
        <a href="/" className='font-bold text-white no-underline'>Portifolio</a>
        <div className='sm:flex gap-x-4 hidden '>
-       <a href="/" className='font-bold text-white no-underline'>All Categories</a>
-       <a href="/" className='text-[#7D7D80] no-underline'>UI/UX </a>
-       <a href="/" className='text-[#7D7D80] no-underline'>Front-end</a>
-       <a href="/" className='text-[#7D7D80] no-underline'>Back-end</a>
+       <a href="/" className='font-bold text-white no-underline hover:text-[#FFC107]'>All Categories</a>
+       <a href="/" className='text-[#7D7D80] no-underline hover:text-[#FFC107]'>UI/UX </a>
+       <a href="/" className='text-[#7D7D80] no-underline hover:text-[#FFC107]'>Front-end</a>
+       <a href="/" className='text-[#7D7D80] no-underline hover:text-[#FFC107]'>Back-end</a>
       
     </div>
     </nav>
