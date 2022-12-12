@@ -5,7 +5,7 @@ import web from '../Resources/Geography.png'
 import github from '../Resources/GitHub.png'
 import twitter from '../Resources/Twitter.png'
 import { Progress } from 'antd';
-import {BsCheck} from 'react-icons/bs'
+import {GoCheck} from 'react-icons/go'
 import './all.css'
 
 const LeftSide = () => {
@@ -73,7 +73,7 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
           {skills.map((value)=>{
             return(
               <div className='px-4 flex gap-x-2'>
-                <span className='text-[#FFC107]'><BsCheck color='yellow'/></span>
+                <span><GoCheck style={{fill:'#FFC107'}}/></span>
                 <p className='flex justify-between text-xs text-[] '>{value.language} </p>
   
         </div>
