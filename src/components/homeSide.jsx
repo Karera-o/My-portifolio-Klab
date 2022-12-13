@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Contact from './contact';
 import Footer from './footer';
 import ServiceCard from './serviceCard';
 // import bg from '../Resources/bg.png'
 import profile from '../Resources/profile.png'
 import { Link } from 'react-router-dom';
+import RightDrawer from './rightDrawer';
+import {HiMenu} from 'react-icons/hi'
 
 const HomeSide = () => {
+ 
   return (
     <div className='w-full bg-slate-500 scroll-auto'>
-      <div className='w-full h-[60vh] bg-slate-800 '>
+
+      <div className='w-full h-[60vh] bg-[#1E1E29] '>
+      
         <div className='h-full w-full bg-bg bg-cover bg-center   bg-no-repeat flex flex-col items-center justify-end '>
             <div className='h-5/6 w-[95%] mx-4  bg-[#00000099] bg-cover  bg-center bg-no-repeat flex  flex-col sm:flex-row items-center justify-around gap-x-5  md:pl-12'>
             {/* brightness-[30%] */}

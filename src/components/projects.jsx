@@ -14,7 +14,7 @@ const Projects = () => {
     const projects = [proj1,proj2,proj3,proj4,proj5,proj3,proj4,proj5]
   return (
     <div className='mx-10 '>
-    <nav className='flex justify-between text-[#7D7D80] py-4 uppercase mx-4'>
+    <nav className='flex justify-between text-[#7D7D80] py-4 uppercase sm:mx-4'>
        <a href="/" className='font-bold text-white no-underline'>Portifolio</a>
        <div className='sm:flex gap-x-4 hidden '>
        <a href="/" className='font-bold text-white no-underline hover:text-[#FFC107]'>All Categories</a>
