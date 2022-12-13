@@ -13,7 +13,7 @@ const Projects = () => {
 
     const projects = [proj1,proj2,proj3,proj4,proj5,proj3,proj4,proj5]
   return (
-    <div className='mx-10'>
+    <div className='mx-2 sm:mx-10'>
     <nav className='flex justify-between text-[#7D7D80] py-4 uppercase sm:mx-4'>
        <a href="/" className='font-bold text-white no-underline'>Portifolio</a>
        <div className='sm:flex gap-x-4 hidden '>
@@ -27,8 +27,8 @@ const Projects = () => {
        <div className='flex gap-3 flex-wrap justify-center'>
        {projects.map(value =>{
         return(
-            <div className='relative hover:w'>
-            <img src={value} alt="" className='rounded hover:brightness-75 ' onMouseOver={show}/>
+            <div className='relative w-full'>
+            <img src={value} alt="" className='rounded hover:brightness-75 w-[100vw]' onMouseOver={show}/>
             <div className='bg-[#242430] p-10 absolute w-full bottom-[0rem]'>
            
                 <h3 className='font-extrabold uppercase text-sm'>Title</h3>
