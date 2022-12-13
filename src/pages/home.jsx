@@ -36,9 +36,9 @@ const Home = () => {
         <div className='bg-[#20202A] p-1 col-span-10 md:col-span-9 lg:col-span-7 overflow-y-auto no-scrollbar'>
 
         <div className='flex  sm:hidden bg-[#252530] items-center justify-between pr-4 py-2 w-full'>
-        <button className='flex items-center justify-center p-2 sm:hidden'><BsThreeDotsVertical size='2rem' className='fill-[#868688] hover:fill-white' onClick={showLeftDrawer}/></button>
+        <button className='flex items-center justify-center p-2 sm:hidden'><BsThreeDotsVertical size='1.5rem' className='fill-[#868688] hover:fill-white' onClick={showLeftDrawer}/></button>
       
-      <button className='flex items-center justify-center p-2 sm:hidden'><HiMenu size='2rem' className='fill-[#868688] hover:fill-white' onClick={showDrawer}/></button>
+      <button className='flex items-center justify-center p-2 sm:hidden'><HiMenu size='1.5rem' className='fill-[#868688] hover:fill-white' onClick={showDrawer}/></button>
       <LeftDrawer onClose={onLeftClose} open={leftOpen}/>
       <RightDrawer onClose={onClose} open={open}/>
     </div>
