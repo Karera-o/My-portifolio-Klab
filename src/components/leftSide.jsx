@@ -90,7 +90,7 @@ const coding = [{language:'html',percent: 90},{language:'css',percent: 80},{lang
         </div>
         </div>
         
-        <footer className='flex justify-between gap-x-2 px-16 bg-[#24242E] py-3 h-12 fixed bottom-2 w-[16.4rem]'>
+        <footer className='flex justify-between gap-x-2 px-16 bg-[#24242E] py-3 h-12 fixed  bottom-0 sm:bottom-2 w-[17.8rem] sm:w-[16.4rem]'>
           {sites.map(value =>{
             return <img src={value} alt='' className='h-5'/>
           })}

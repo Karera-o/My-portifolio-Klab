@@ -7,15 +7,27 @@ import RightSide from '../components/rightSide';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom'
 import RightDrawer from '../components/rightDrawer';
 import { HiMenu } from 'react-icons/hi';
+import LeftDrawer from '../components/leftDrawer';
+import { BsThreeDotsVertical } from 'react-icons/bs';
 
 const Home = () => {
   const [open,setOpen] = useState()
+  const [leftOpen,setLeftOpen] = useState()
   const showDrawer =()=>{
     setOpen(true)
   }
   const onClose = ()=>{
     setOpen(false)
   }
+
+  const showLeftDrawer =()=>{
+    setLeftOpen(true)
+  }
+  const onLeftClose = ()=>{
+    setLeftOpen(false)
+  }
+
+
   return (
     <div className=' box-border h-[100%] grid grid-cols-10 mx-auto'>
     
@@ -23,8 +35,11 @@ const Home = () => {
         
         <div className='bg-[#20202A] p-1 col-span-10 md:col-span-9 lg:col-span-7 overflow-y-auto no-scrollbar'>
 
-        <div className='flex  sm:hidden bg-[#252530] items-center justify-end pr-4 py-2 w-full top-0 right-o'>
-      <span className='flex items-center justify-center p-2'><HiMenu size='2rem' className='fill-[#868688] hover:fill-white' onClick={showDrawer}/></span>
+        <div className='flex  sm:hidden bg-[#252530] items-center justify-between pr-4 py-2 w-full'>
+        <span className='flex items-center justify-center p-2 sm:hidden'><BsThreeDotsVertical size='2rem' className='fill-[#868688] hover:fill-white' onClick={showLeftDrawer}/></span>
+      
+      <span className='flex items-center justify-center p-2 sm:hidden'><HiMenu size='2rem' className='fill-[#868688] hover:fill-white' onClick={showDrawer}/></span>
+      <LeftDrawer onClose={onLeftClose} open={leftOpen}/>
       <RightDrawer onClose={onClose} open={open}/>
     </div>
         <Router >
@@ -34,7 +49,7 @@ const Home = () => {
           </Routes>
         </Router>
         </div>
-        {/* <div className='bg-[#20202A] p-1 col-span-10 md:col-span-9 lg:col-span-7 overflow-y-auto no-scrollbar'><Projects/></div> */}
+
         <div className='bg-[#20202a] m-1 hidden md:block mr-8'><RightSide/></div>
       
     </div>
